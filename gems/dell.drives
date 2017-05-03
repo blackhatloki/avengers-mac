@@ -1,0 +1,30 @@
+omreport storage pdisk controller=0
+ID                              : 0:1:1
+Status                          : Ok
+Name                            : Physical Disk 0:1:1
+State                           : Online
+Power Status                    : Spun Up
+Bus Protocol                    : SATA
+Media                           : HDD
+Part of Cache Pool              : Not Applicable
+Remaining Rated Write Endurance : Not Applicable
+Failure Predicted               : No
+Revision                        : AA09
+Driver Version                  : Not Applicable
+Model Number                    : Not Applicable
+T10 PI Capable                  : No
+Certified                       : Yes
+Encryption Capable              : No
+Encrypted                       : Not Applicable
+Progress                        : Not Applicable
+Mirror Set ID                   : Not Applicable
+Capacity                        : 232.38 GB (249510756352 bytes)
+Used RAID Disk Space            : 232.38 GB (249510756352 bytes)
+Available RAID Disk Space       : 0.00 GB (0 bytes)
+Hot Spare                       : No
+Vendor ID                       : DELL(tm)
+Product ID                      : ST9250610NS
+Serial No.                      : 9XE0DVWC
+
+
+omreport storage pdisk controller=0 | egrep "^ID|^Status|^Name|^State|^Failure Predicted|^Progress"
