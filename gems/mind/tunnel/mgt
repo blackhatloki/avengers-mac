@@ -1,0 +1,25 @@
+!
+interface ManagementEthernet 1/1
+ ip address 192.168.0.28/22
+ no shutdown
+!
+interface ManagementEthernet 2/1
+ ip address 192.168.0.17/22
+ no shutdown
+!
+interface ManagementEthernet 3/1
+ ip address 192.168.0.18/22
+ no shutdown
+!
+interface ManagementEthernet 4/1
+ ip address 192.168.0.19/22
+ no shutdown
+!
+interface ManagementEthernet 5/1
+ ip address 192.168.0.25/22
+ no shutdown
+!
+interface ManagementEthernet 6/1
+ ip address 192.168.0.27/22
+ no shutdown
+!
